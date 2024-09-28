@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'open sans';
+    src: url('./fontes/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+body {
+    font-family: 'open sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeçalho {
+    height: 12vmin;
+    background-color: #272626;
+    color: white;
+    border-bottom: 1.7vmin solid #ff7b00;
+}
+
+.letreiro {
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 6vmin;
+}
+
+.tamanho {
+    width: 80vw;
+    margin: auto;
+    text-align: left;
+}
+
+.text_letr {
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+.sub_letr {
+    margin: 28px 0px 20px 0px;
+    font-size: 1.5em;
+    color: #7e7979;
+    font-weight: 700;
+}
+
+.sub_text {
+    font-weight: 800;
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+
+.sub_img {
+    margin: 0px 0px 15px 0px;
+    font-size: 0.5em;
+    color: #7e7b7b;
+}
+
+.img {
+    width: 100%;
+}
+
+
+hr {
+    margin: 20px 0px 40px 0px;
+}
+
+.corpo {
+    width: 60vw;
+    margin: auto;
+}
+
+.texto {
+    color: #353030;
+    font-size: 1.4em;
+    list-style: none;
+}
+
+.title_orange {
+    font-size: 1.47em;
+    color: #ff7b00;
+    font-weight: 900;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.ancora {
+    text-decoration: none;
+    color: #7c7878;
+    font-weight: 700;
+}
+
+.ancora:hover {
+    color: black;
+}
+
+.gamb {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.rodape {
+    margin-top: 50px;
+    border-top: 10px solid #ff7b00;
+    height: 15vh;
+    background-color: #272626;
+}
+
+.text_roda {
+    margin: 60px;
+    text-align: end;
+    color: #ff7b00;
+}
+
+.whats {
+    margin: 50px 10px 10px 0px;
+    padding: 0px 22px 0px 0px;
+    background-image: url('./imagem/whatsapp.png');
+    background-size: 22px;
+}
+
+.face {
+    margin: 50px 10px 10px 0px;
+    padding: 0px 22px 0px 0px;
+    background-image: url('./imagem/facebook.png');
+    background-size: 22px;
+
+}
+
+.twit {
+    margin: 50px 10px 10px 0px;
+    padding: 0px 22px 0px 0px;
+    background-image: url('./imagem/twitter.png');
+    background-size: 22px;
+}
